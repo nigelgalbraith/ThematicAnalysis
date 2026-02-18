@@ -4,8 +4,6 @@ ThematicAnalysis is a structured qualitative analysis system that transforms raw
 
 Data begins in Excel, is transformed into structured JSON through Python, and is rendered dynamically through modular JavaScript components in a browser-based interface.
 
-The goal is simple:
-
 - Keep qualitative data structured
 - Keep transformation logic modular
 - Keep relationships explicit
@@ -201,10 +199,6 @@ Key modules include:
 - Risk matrix modelling
 - Search filtering controller
 - Glossary viewer
-
-All rendering is data-driven.
-
-No thematic logic is embedded directly in HTML.
 
 ---
 
