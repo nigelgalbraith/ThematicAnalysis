@@ -329,3 +329,10 @@ http://localhost:8000
 ```
 
 Or open the HTML files directly in a browser.
+
+
+## License
+
+MIT License.
+
+Anyone is free to use, modify, distribute, or improve this code.
