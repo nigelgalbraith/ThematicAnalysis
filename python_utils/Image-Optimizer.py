@@ -146,8 +146,16 @@ from PIL import Image, ImageOps
 # Image config
 IMAGE_PROFILES = {}
 
-ASSET_SETS = {}
-
+ASSET_SETS = {
+    "icons": {
+        "main": {
+            "input_dir": "../images/icons/original",
+            "output_dir": "../images/icons/optimized",
+            "width": 100,
+            "quality": 85
+        }
+    }
+}
 FAVICON_CONFIG = {
     "input": "../images/favicon/original/data.png",
     "output_dir": "../images/favicon/optimized",
